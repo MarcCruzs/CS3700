@@ -1,0 +1,14 @@
+Process 0 on cn19
+Process 1 on cn20
+Process 3 on cn22
+Process 4 on cn23
+Process 2 on cn21
+Process 0 - startIndex 0 endIndex 199999; part_sum 446251799; local_min 8156; local_max 2147469867
+Process 3 - startIndex 600000 endIndex 799999; part_sum -947370309; local_min 9087; local_max 2147473238
+Process 4 - startIndex 800000 endIndex 999999; part_sum 771587519; local_min 37209; local_max 2147483030
+Process 2 - startIndex 400000 endIndex 599999; part_sum -1322600177; local_min 6257; local_max 2147460093
+Process 1 - startIndex 200000 endIndex 399999; part_sum -707501254; local_min 29130; local_max 2147478249
+Execution time (sec) = 0.024387
+sum = -1759632422
+min = 6257
+max = 2147483030
