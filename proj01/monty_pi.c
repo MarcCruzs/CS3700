@@ -42,7 +42,7 @@ int main(int argc, char* argv[]){
     int local_count, global_count;
     double start_time, end_time, elapsed_time;
     double pi_estimate, delta;
-    for (int i = 1; i <= 5; i++){
+    for (int i = 1; i <= TRIALS; i++){
         start_time = MPI_Wtime();
         // initialize random seed
         srand((unsigned)(myid) + time(0));

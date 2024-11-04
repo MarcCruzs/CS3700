@@ -24,7 +24,7 @@ int main (int argc,  char *argv[]) {
    srand((unsigned)(myid) + time(0));
 
    for (int i = 0; i < ARRAY_SIZE; i++) {
-      numbers[i] = (int)rand();
+      numbers[i] = rand();
    }
 
    int s = (int)floor(ARRAY_SIZE / numprocs);
